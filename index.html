@@ -60,7 +60,30 @@
 .exp-project-link{display:inline-block;margin-top:16px;border-bottom:1px solid var(--accent);font-size:13px;font-weight:700;padding-bottom:5px}
 @media(max-width:800px){.exp-detail summary{grid-template-columns:1fr auto;gap:10px}.exp-preview{grid-column:1/-1;grid-row:2}.exp-right{grid-column:2;grid-row:1}.exp-date{display:none}.exp-expanded{margin-left:0;padding:22px}}
 @media(prefers-reduced-motion:reduce){.exp-toggle{transition:none}}
-</style><style>.exp-expanded{max-width:850px}.exp-expanded p{font-size:15px;line-height:1.85;color:#34494d;margin:0}.exp-tags{display:flex;gap:8px;flex-wrap:wrap;margin-top:18px}.exp-tags span{font-size:11px;letter-spacing:.02em;border:1px solid #b9cbc5;color:#4c6565;border-radius:20px;padding:6px 10px;background:rgba(255,255,255,.4)}.exp-project-link{margin-top:20px}</style><style>/* Persistent navigation and contact link icons */.topbar{position:sticky;top:0;z-index:1000;background:var(--paper);border-bottom:1px solid var(--line)}html{scroll-padding-top:82px}.contact-links a{display:inline-flex;align-items:center;gap:9px}.contact-links svg{width:17px;height:17px;flex:none;stroke:currentColor;stroke-width:1.7;fill:none;stroke-linecap:round;stroke-linejoin:round}</style></head>
+</style><style>.exp-expanded{max-width:850px}.exp-expanded p{font-size:15px;line-height:1.85;color:#34494d;margin:0}.exp-tags{display:flex;gap:8px;flex-wrap:wrap;margin-top:18px}.exp-tags span{font-size:11px;letter-spacing:.02em;border:1px solid #b9cbc5;color:#4c6565;border-radius:20px;padding:6px 10px;background:rgba(255,255,255,.4)}.exp-project-link{margin-top:20px}</style><style>/* Persistent navigation and contact link icons */.topbar{position:sticky;top:0;z-index:1000;background:var(--paper);border-bottom:1px solid var(--line)}html{scroll-padding-top:82px}.contact-links a{display:inline-flex;align-items:center;gap:9px}.contact-links svg{width:17px;height:17px;flex:none;stroke:currentColor;stroke-width:1.7;fill:none;stroke-linecap:round;stroke-linejoin:round}</style><style>
+/* Soft color accents across the homepage, retaining the editorial layout */
+:root{--accent:#4f777b}
+body{background:#f7f4ef}
+.hero{position:relative}
+.hero h1 span{color:#567c80}
+.hero-portrait{background:#dbe9e5;border-radius:10px;overflow:hidden}
+#projects{background:#f1edf5}
+#projects .eyebrow{color:#79638d}
+#projects .visual.manisa{background:#d5e8e2}
+#projects .visual.pump{background:#eee2cf}
+#projects .visual.inhaler{background:#e8dcf2}
+#projects .visual.oasis{background:#dbe7ed}
+#experience{background:#e7eeeb!important}
+.exp-expanded{background:#d9e8e3}
+.section:has(.skills){background:#f5eee5}
+.skill{background:#fffaf4;border-color:#dfd4c7;border-radius:5px}
+.skill:hover{background:#f1e7da;border-color:#c9aa8d}
+#about{background:#ede9f1}
+#about .eyebrow{color:#806a90}
+.contact{background:#283e43}
+.footer{background:#283e43;border-color:#496064}
+@media(max-width:760px){#projects,#experience,#about{background-image:none}}
+</style></head>
 <body>
 <header class="topbar"><nav class="nav wrap" aria-label="Main navigation"><a class="wordmark" href="#top" aria-label="Home">ANYA JOBALIA<span style="color:var(--accent)">.</span></a><div class="links"><a href="#top">Home</a><a href="#projects">Projects</a><a href="#experience">Work Experience</a><a href="#about">About</a><a href="#contact">Contact ↗</a></div></nav></header>
 <main id="top">
